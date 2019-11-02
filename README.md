@@ -3,12 +3,12 @@
 Spotify playlist generator using sentiment analysis on personal journal/diary entry data.
 Requires Spotify Premium to use; I've hidden my user credentials in but if you'd like to run this project, download the below dependencies and visit https://developer.spotify.com/ to generate your personal tokens. See the <b>"Example"</b> section below for a demonstration.
 - - - -
-### Tech/Libraries Used
-* Spotipy
+### Primary Libraries Used
+* <b>Spotipy</b>
   * Access Spotify API for user history and playlist generation.
-* NLTK
+* <b>NLTK</b>
   * Valence Aware Dictionary and sEntiment Reasoner (VADER) for sentiment analysis of user text entry.
-* Pandas
+* <b>Pandas</b>
   * Storage of scraped song data and Boolean indexing for quick recall.
  - - - -
 ### Contents
