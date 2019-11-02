@@ -12,7 +12,7 @@ Requires Spotify Premium to use; I've hidden my user credentials in a .gitignore
  
 ### Contents
 * <b>sentiment.py</b>
- * Evaluates the sentiment of a given body of text.
+  * Evaluates the sentiment of a given body of text.
 * <b>spotify_scraper.py</b>
  * Scrapes Spotify API for song information and contains details in a pd.DataFrame.
 * <b>audio_thera.py</b>
