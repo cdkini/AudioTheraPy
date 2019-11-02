@@ -17,7 +17,7 @@ Requires Spotify Premium to use; I've hidden my user credentials in a .gitignore
   * Scrapes Spotify API for song information and contains details in a pd.DataFrame.
 * <b>audio_thera.py</b>
   * main() function that runs scripts developed in the other .py files.
-* <b>secrets.py<b/> (<i>.gitignore</i>)
+* <b>secrets.py</b> (<i>.gitignore</i>)
   * Contains user credentials including username, scope, client_id, client_secret, and redirect_uri for the app.
 
 ### Example
