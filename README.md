@@ -1,6 +1,6 @@
 # Audio TheraPy
 Spotify playlist generator using sentiment analysis on personal journal/diary entry data.
-Requires Spotify Premium to use; I've hidden my user credentials in a .gitignore but if you'd like to run this project, download the below dependencies and visit https://developer.spotify.com/ to generate your personal tokens.
+Requires Spotify Premium to use; I've hidden my user credentials in but if you'd like to run this project, download the below dependencies and visit https://developer.spotify.com/ to generate your personal tokens. See the <b>"Example"</b> section below for a demonstration.
 
 ### Tech/Libraries Used
 * Spotipy
