@@ -24,9 +24,9 @@ Requires Spotify Premium to use; I've hidden my user credentials in but if you'd
 Add screen recording of script in action (include arg from command line, Spotify API auth, and resulting playlist)
 
 ### Next Steps
-- [] Host application on Flask or Django
-- [] Create SQLite database to store sentiment analysis results / recommended songs
-- [] Improve method of analyzing song sentiment through Spotify's metrics
+- [ ] Host application on Flask or Django
+- [ ] Create SQLite database to store sentiment analysis results / recommended songs
+- [ ] Improve method of analyzing song sentiment through Spotify's metrics
 
 ### License
 Add MIT license data here.
