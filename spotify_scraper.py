@@ -9,11 +9,11 @@ from secrets import secret_dict
 from sentiment import classifications
 
 token = util.prompt_for_user_token( # Stored in secret file for security purposes.
-        username=secret_dict['username'],
-        scope=secret_dict['scope'],
-        client_id=secret_dict['client_id'],
-        client_secret=secret_dict['client_secret'],
-        redirect_uri=secret_dict['redirect_uri']
+        username=secret_dict['username'], # 6 digit Spotify ID
+        scope=secret_dict['scope'], # Use 'user-top-read playlist-modify-private'
+        client_id=secret_dict['client_id'], # Generated when you register app to Spotify Developer
+        client_secret=secret_dict['client_secret'], # Generated when you register app to Spotify Developer
+        redirect_uri=secret_dict['redirect_uri'] # Use http://localhost:8888/callback/
 )
 
 sp = spotipy.Spotify(auth=token)
