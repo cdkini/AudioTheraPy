@@ -13,7 +13,7 @@ token = util.prompt_for_user_token( # Stored in secret file for security purpose
         scope=secret_dict['scope'], # Use 'user-top-read playlist-modify-private'
         client_id=secret_dict['client_id'], # Generated when you register app to Spotify Developer
         client_secret=secret_dict['client_secret'], # Generated when you register app to Spotify Developer
-        redirect_uri=secret_dict['redirect_uri'] # Use http://localhost:8888/callback/
+        redirect_uri=secret_dict['redirect_uri'] # Whatever you set up; I used http://localhost:8888/callback/
 )
 
 sp = spotipy.Spotify(auth=token)
