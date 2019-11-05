@@ -22,7 +22,7 @@ Requires Spotify Premium to use; I've hidden my user credentials in but if you'd
   * Contains user credentials including username, scope, client_id, client_secret, and redirect_uri for the app.
 - - - -
 ### Example
-Add screen recording of script in action (include arg from command line, Spotify API auth, and resulting playlist)
+TODO: Add screen recording of script in action (include arg from command line, Spotify API auth, and resulting playlist)
 - - - -
 ### Next Steps
 - [ ] Host application on Flask or Django.
@@ -30,4 +30,4 @@ Add screen recording of script in action (include arg from command line, Spotify
 - [ ] Improve method of analyzing song sentiment through Spotify's metrics.
 - - - -
 ### License
-Add MIT license data here.
+TODO: Add MIT license data here.
